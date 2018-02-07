@@ -1,6 +1,6 @@
 <?php
 
-namespace dezinger\qiwipay;
+namespace dezinger\yii2\qiwipay;
 
 use Yii;
 use yii\base\Component as BaseComponent;
