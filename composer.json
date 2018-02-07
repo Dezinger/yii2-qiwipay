@@ -1,0 +1,44 @@
+{
+    "name": "dezinger/yii2-qiwipay",
+    "description": "",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "",
+        "forum": "",
+        "source": ""
+    },
+    "keywords": [
+        "yii",
+        "yii2",
+        "yii 2",
+        "yii framework",
+        "qiwi",
+        "qiwipay"
+    ],
+    "authors": [
+        {
+            "name": "Aleksey Kazakov",
+            "email": "dezinger@gmail.com",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.5",
+        "yiisoft/yii2": "^2.0.0"
+    },
+    "require-dev": {        
+        "phpunit/phpunit": "~4.0",
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "squizlabs/php_codesniffer": "*",
+        "phpmd/phpmd": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "dezinger\\qiwipay\\": "./src"
+        }
+    }
+}
